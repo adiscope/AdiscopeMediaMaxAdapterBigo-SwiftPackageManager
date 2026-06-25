@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.6.2"),
     ],
     targets: [
         .target(
@@ -28,18 +28,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterBigo",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaMaxAdapterBigo.zip",
-            checksum: "5c9613fb2cdb2a3d8a1262cfe859ed277149cfbebc4bee7dafb2e41ce00f0e69"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.4.0/AdiscopeMediaMaxAdapterBigo.zip",
+            checksum: "040ed90d22f89c54d2522e1b7695ebcf9c5f4c18d27cd48c83e1d7f3ba49bfca"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterBigoMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AppLovinMediationBigoAdsAdapter.xcframework.zip",
-            checksum: "9e22b7b377544f2d91f3b4e63e631d019dd14122359407bc226369e26ee2eefb"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.4.0/AppLovinMediationBigoAdsAdapter.xcframework.zip",
+            checksum: "1a7dfa7eda886c774cc0ee7a26f95efdd91b838ea47404cc6dc20ded634039c1"
         ),
         .binaryTarget(
             name: "BigoADS",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/BigoADS.xcframework.zip",
-            checksum: "dddec8f8962493f089e9d040a23fb88299c60f662bb9e422a66eff88edd5837d"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.4.0/BigoADS.xcframework.zip",
+            checksum: "0fa8df7a3ce560ae1677087db368b32c013d3a556f5c246f381975421044630d"
         ),
     ]
 )
